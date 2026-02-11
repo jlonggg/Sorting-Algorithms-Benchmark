@@ -141,7 +141,7 @@ if __name__ == "__main__":
 
     # Kiểm tra kết quả
     print(f"Đã tạo {len(dataset)} dãy.")
-    print(f"Dãy 1 (Số thực tăng dần): {dataset[0][:5]} ...") # In 5 phần tử đầu thôi cho gọn
+    print(f"Dãy 1 (Số thực tăng dần): {dataset[0][:5]} ...")
     print(f"Dãy 6 (Số nguyên giảm dần): {dataset[5][:5]} ...")
     print("Đã tạo xong 10 dãy dữ liệu.\n")
     
@@ -226,7 +226,6 @@ if __name__ == "__main__":
 
     plt.tight_layout()
     
-    # Lệnh lưu ảnh (Phải đặt trước plt.show)
     img_filename = "bieu_do_so_sanh.png"
     plt.savefig(img_filename)
     print(f"[OK] Đã lưu ảnh biểu đồ tại: {os.path.abspath(img_filename)}")
